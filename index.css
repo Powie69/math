@@ -3,7 +3,7 @@ body {
 	margin: 0;
 }
 
-p,h1 {
+p,h1,input,button {
 	color: #fff;
 	font-family: Arial;
 }
@@ -21,15 +21,17 @@ article {
 }
 
 .question {
-	font-size: 2.25rem;
+	font-size: 3rem;
+}
+
+.subtitle {
+	margin: 0;
 }
 
 .form input {
 	display: block;
 	margin: 1rem 0;
 	padding: 8px 12px;
-	min-width: 5rem;
-
 	border-radius: 14px;
 	-moz-appearance: textfield;
 }
@@ -48,3 +50,10 @@ input::-webkit-inner-spin-button {
 	border-radius: 14px;
 }
 
+.correct {
+	color: #00ff00;
+}
+
+.incorrect {
+	color: #ff0000;
+}
