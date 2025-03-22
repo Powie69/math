@@ -3,15 +3,15 @@ let answer = 0;
 makeQuestion()
 
 function handleCorrect() {
-	submit.innerText = 'Nice 👌😊';
-	submit.classlist.remove('incorrect');
-	submit.classlist.add('correct');
+	subtitle.innerText = 'Nice 👌😊';
+	subtitle.classlist.remove('incorrect');
+	subtitle.classlist.add('correct');
 }
 
 function handleIncorrect() {
-	submit.innerText = 'WRONG 😡😡😤';
-	submit.classlist.remove('correct');
-	submit.classlist.add('incorrect');
+	subtitle.innerText = 'WRONG 😡😡😤';
+	subtitle.classlist.remove('correct');
+	subtitle.classlist.add('incorrect');
 }
 
 function makeQuestion() {

@@ -12,7 +12,7 @@
 	<article>
 		<p class="question"><span id="firstNumber"></span> + <span id="secondNumber"></span></p>
 		<p class="subtitle">Nice! </p>
-		<form class="form" onsubmit="event.preventDefault();">
+		<form class="form" onsubmit="event.preventDefault(); submit(this.value);">
 			<input class="form-input" id="answer" type="number" inputmode="numeric">
 			<button class="submit" type="submit">send</button>
 		</form>
